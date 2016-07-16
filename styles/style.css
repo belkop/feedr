@@ -59,7 +59,7 @@
 
 /* Header styles */
 header {
-  background-color: #FE052C;
+  background-color: #2566bf;
   position: fixed;
   top: 0;
   left: 0;
@@ -128,7 +128,7 @@ header #search.active input {
 }
 
 header #search.active a {
-  background: #CC0020;
+  background: #0b4593;
 }
 
 header nav a {
@@ -156,7 +156,7 @@ nav ul {
 
 nav ul li {
 	display:inline-block;
-	background-color: #CC0020;
+	background-color: #0b4593;
   position: relative;
 }
 
