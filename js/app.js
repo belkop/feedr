@@ -11,7 +11,7 @@ $.get("https://accesscontrolalloworiginall.herokuapp.com/http://digg.com/api/new
       body: "This is my first post!",
       image: result.content.media.images[0].url,
       shares:result.fb_shares.count,
-      link:result.hattip_url.url
+      link:result.content.url
     };
     var html = template(context);
       console.log(result.fb_shares)
